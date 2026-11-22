@@ -126,6 +126,7 @@ God files(又大又忙,该拆了)/ Stale but big(大而无人动,是死重还是
 - [todomold](https://github.com/doge-th/todomold) — your oldest TODOs, with who wrote them and how long they've rotted
 - [csvpulse](https://github.com/doge-th/csvpulse) — take the pulse of a CSV file in one command
 - [awakehours](https://github.com/doge-th/awakehours) — find the hours when your whole team is actually awake
+- [pyverscan](https://github.com/doge-th/pyverscan) — the oldest Python your code can run on, from the AST up
 
 ## Development
 
