@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "githotspot"
+version = "0.1.0"
+description = "Find your repo's hotspots: files where churn meets complexity, straight from git history"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+keywords = ["git", "code-review", "tech-debt", "hotspot", "churn", "complexity", "cli", "developer-tools", "static-analysis"]
+authors = [{ name = "doge-th" }]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+githotspot = "githotspot.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/doge-th/githotspot"
+Issues = "https://github.com/doge-th/githotspot/issues"
+
+[tool.setuptools]
+packages = ["githotspot"]
