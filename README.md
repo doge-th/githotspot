@@ -120,6 +120,11 @@ githotspot . --json               # 全量指标,自己画图
 God files(又大又忙,该拆了)/ Stale but big(大而无人动,是死重还是稳定)。
 复杂度用行数做代理指标,够用且诚实—— cyclomatic 版本以后再说。
 
+## Related tools
+
+- [toktree](https://github.com/doge-th/toktree) — `du` for your LLM context window
+- [todomold](https://github.com/doge-th/todomold) — your oldest TODOs, with who wrote them and how long they've rotted
+
 ## Development
 
 ```bash
